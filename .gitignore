@@ -1,0 +1,5 @@
+.venv/
+mlruns/
+logs/
+MLOPS_Project_1.egg-info/
+dark-form-456022-r7-c27143a32f62.json
