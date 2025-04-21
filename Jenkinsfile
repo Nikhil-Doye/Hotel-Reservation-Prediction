@@ -47,6 +47,8 @@ pipeline{
                             
                             docker build -t gcr.io/${GCP_PROJECT}/hotel-reservation-prediction:latest .
 
+                            export DOCKER_CLIENT_TIMEOUT=300 && export COMPOSE_HTTP_TIMEOUT=300
+
                             docker push gcr.io/${GCP_PROJECT}/hotel-reservation-prediction
                         '''
                     }
