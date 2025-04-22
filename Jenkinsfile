@@ -69,8 +69,8 @@ pipeline{
 
                             gcloud run deploy hotel-reservation-prediction \
                                 --image gcr.io/${GCP_PROJECT}/hotel-reservation-prediction:latest \
-                                --platform = managed \
-                                --region = us-central1 \
+                                --platform managed \
+                                --region us-central1 \
                                 --allow-unauthenticated
                         '''
                     }
