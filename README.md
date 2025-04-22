@@ -1,6 +1,6 @@
 Here’s the complete content for your `README.md` file:
 
-# 🚀 MLOps Project - 1
+# 🚀 Hotel Reservation Prediction
 
 This project demonstrates a full MLOps pipeline from raw data to a production-ready ML application. It incorporates industry-standard tools and practices including model training, versioning, experiment tracking, and CI/CD deployment.
 
