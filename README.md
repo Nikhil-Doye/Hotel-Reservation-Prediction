@@ -68,6 +68,25 @@ Database Setup → Project Setup → Data Ingestion → Jupyter Notebook Testing
 
 ---
 
+## 🐳 Docker-in-Docker (DinD) Usage
+
+To enable dynamic and containerized builds within the CI/CD pipeline, this project leverages **Docker-in-Docker (DinD)** in Jenkins:
+
+### 🔧 Why DinD?
+
+- Allows Jenkins agents to **build, run, and push Docker images** as part of the pipeline.
+- Ensures each build runs in **isolated containers**, avoiding interference from other builds.
+- Simplifies deployment by allowing end-to-end container lifecycle management inside Jenkins.
+
+### 🛠️ How It Works
+
+- Jenkins spins up a containerized agent that has Docker installed.
+- That agent itself **runs Docker inside Docker** to build the ML app container.
+- The container is then pushed to a **Docker registry** or deployed directly to **Google Cloud Run**.
+
+---
+
+
 ## ✅ 8. Final Output
 
 A fully automated, scalable, and reproducible ML pipeline, ending in a deployed ML-powered application.
