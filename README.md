@@ -1,6 +1,8 @@
 # 🚀 Hotel Reservation Prediction
 
-This project demonstrates a full MLOps pipeline from raw data to a production-ready ML application. It incorporates industry-standard tools and practices including model training, versioning, experiment tracking, and CI/CD deployment.
+This project demonstrates a full MLOps pipeline from raw data to a production-ready ML application. It incorporates industry-standard tools and practices, including model training, versioning, experiment tracking, and CI/CD deployment.
+
+**Medium*** Article[https://medium.com/@doye.n/%EF%B8%8Fbuilding-production-ready-ml-systems-with-gcp-lessons-from-my-mlops-prediction-application-7c7b0fe7d8b1]
 
 ---
 
@@ -37,7 +39,7 @@ Database Setup → Project Setup → Data Ingestion → Jupyter Notebook Testing
 
 ## 🧪 4. Experiment Tracking
 
-- **Tool**: MLflow used to track parameters, metrics, and models.
+- **Tool**: MLflow is used to track parameters, metrics, and models.
 - Track performance across multiple training runs and model iterations.
 
 ---
@@ -96,7 +98,7 @@ A fully automated, scalable, and reproducible ML pipeline, ending in a deployed 
 ## 💡 Future Improvements
 
 - Add monitoring (e.g., Prometheus, Grafana)
-- Improve data validation from input perspective
+- Improve data validation from an input perspective
 - Integrate advanced model retraining schedules
 
 ---
