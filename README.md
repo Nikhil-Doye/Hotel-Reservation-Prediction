@@ -2,7 +2,7 @@
 
 This project demonstrates a full MLOps pipeline from raw data to a production-ready ML application. It incorporates industry-standard tools and practices, including model training, versioning, experiment tracking, and CI/CD deployment.
 
-**Medium*** Article[https://medium.com/@doye.n/%EF%B8%8Fbuilding-production-ready-ml-systems-with-gcp-lessons-from-my-mlops-prediction-application-7c7b0fe7d8b1]
+**Medium** - [https://medium.com/@doye.n/%EF%B8%8Fbuilding-production-ready-ml-systems-with-gcp-lessons-from-my-mlops-prediction-application-7c7b0fe7d8b1]
 
 ---
 
